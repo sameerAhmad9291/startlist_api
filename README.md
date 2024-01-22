@@ -3,6 +3,7 @@
 This project is using nestJS with graphql, i have used yarn for package installation.
 
 `yarn install`
+
 `yarn run start`
 
 
