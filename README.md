@@ -107,8 +107,9 @@ mutation {
       { id: "dateOfBirth", name: "Date of Birth", value: "2000-04-03" },
       { id: "addressLine1", name: "Address (Line 1)", value: "168
 
-</details>
 ```
+
+</details>
 
 # Context
 
