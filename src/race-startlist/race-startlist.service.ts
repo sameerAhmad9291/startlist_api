@@ -1,7 +1,7 @@
-import { Injectable } from '@nestjs/common';
-import { FilterRaceStartlistArgs } from './dto/search-filter.args';
-import { RaceStartlistRepo } from 'src/common/repositories/race-startlist.repo';
-import { RaceEntryInput } from './dto/race-entry.input';
+import { Injectable } from "@nestjs/common";
+import { FilterRaceStartlistArgs } from "./dto/search-filter.args";
+import { RaceStartlistRepo } from "../common/repositories/race-startlist.repo";
+import { RaceEntryInput } from "./dto/race-entry.input";
 
 @Injectable()
 export class RaceStartlistService {
@@ -40,7 +40,7 @@ export class RaceStartlistService {
     /// checking search filter by looping over search params
     return transformedArray.filter((entry) => {
       const isMatched = Object.keys(searchParams).every(
-        (key) => entry[key] === searchParams[key],
+        (key) => entry[key] === searchParams[key]
       );
 
       return isMatched;
