@@ -5,12 +5,13 @@ import { RaceStartlistModule } from './race-startlist/race-startlist.module';
 
 @Module({
   imports: [
+    RaceStartlistModule,
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       autoSchemaFile: true,
       playground: true,
+      introspection: true,
     }),
-    RaceStartlistModule,
   ],
 })
 export class AppModule {}
