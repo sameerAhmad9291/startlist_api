@@ -7,7 +7,8 @@ const writeFileAsync = promisify(fs.writeFile);
 import { RaceEntry } from "../../race-startlist/models/race-entry.model";
 import { RaceEntryInput } from "../../race-startlist/dto/race-entry.input";
 import { randomUUID } from "crypto";
-const filePath = "startlists.json";
+import { join } from "path";
+const filePath = join(__dirname, "../", "../", "startlists.json");
 
 @Injectable()
 export class RaceStartlistRepo {
