@@ -7,11 +7,6 @@ yarn install
 yarn run start
 ```
 
-Why/what questions.
-
-I have time i would integrated e2e tests, database, search filters can be improved for different fields less/greater than for dates, like operator and also refactor the code logic,
-I have implemented repository logic to we can later integrate data.
-
 ## [live](https://startlist-api.vercel.app/graphql).
 graphql playground is deployed on vercel. <br/>
 <span style="background-color: yellow;"> NOTE:</span> due to vercel read only access. mutation will not write data into json.
@@ -128,13 +123,3 @@ We'd like you to add the following functionality to the API:
 - Add queries to search and filter data from the dataset
 - Add in pagination to be used by a client that supports infinite scrolling
 - Add an API for adding new race startlist entries to the dataset
-
-# Submitting
-
-Remember that when you send the test back, you can feel free to include any information about what you didn't do that you would have liked to, where you cut corners (and why) etc.
-
-It’s unlikely you'll complete everything as perfectly as you would have liked, so please do feel free to add any colour through comments or notes!
-
-Good luck!
-
----------------
